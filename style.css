@@ -17,7 +17,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   justify-content: center;
-  gap: 0.2rem;
+  gap: 1rem;
   margin-top: 1rem;
 }
 
@@ -74,6 +74,29 @@ button:active {
   background-color: #f6c982;
 }
 
-/* @media screen and (max w){
-  
-} */
+@media screen and (max-width: 550px) {
+  body {
+    background-color: #000000;
+  }
+  .calculator {
+    width: 20rem;
+    padding: 2rem 1rem;
+  }
+  .buttons {
+    gap: 1rem 0.5rem;
+  }
+  button {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+
+  .button-0 {
+    width: 9rem;
+    height: 3.5rem;
+  }
+
+  .display {
+    font-size: 1.2rem;
+  }
+}
