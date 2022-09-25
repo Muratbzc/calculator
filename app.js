@@ -18,12 +18,10 @@ buttons.addEventListener("click", (e) => {
 
   if (e.target.classList.contains("button-mark")) {
     display.innerText = display.innerText * -1;
-    firstNumber = Number(display.innerText);
   }
 
   if (e.target.classList.contains("button-percent")) {
     display.innerText = display.innerText * 0.01;
-    firstNumber = Number(display.innerText);
   }
 
   if (e.target.classList.contains("num")) {
