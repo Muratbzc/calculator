@@ -83,7 +83,7 @@ button:active {
     padding: 2rem 1rem;
   }
   .buttons {
-    gap: 1rem 0.5rem;
+    gap: 0.5rem 0.3rem;
   }
   button {
     width: 3.5rem;
@@ -92,11 +92,16 @@ button:active {
   }
 
   .button-0 {
-    width: 9rem;
+    width: 8rem;
     height: 3.5rem;
   }
 
   .display {
-    font-size: 1.2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1rem;
+    font-size: 1.22rem;
   }
 }
