@@ -59,7 +59,7 @@ button:active {
 }
 
 .display {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
   height: 6rem;
   display: flex;
@@ -97,11 +97,11 @@ button:active {
   }
 
   .display {
-    height: 4rem;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-top: 1rem;
+    margin-top: 0;
     font-size: 1.22rem;
   }
 }
